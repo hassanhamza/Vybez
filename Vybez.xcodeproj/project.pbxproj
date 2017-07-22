@@ -1,0 +1,528 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5C2D63A91F23A94C005CD170 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C2D63A81F23A94C005CD170 /* AppDelegate.swift */; };
+		5C2D63AB1F23A94C005CD170 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C2D63AA1F23A94C005CD170 /* ViewController.swift */; };
+		5C2D63AE1F23A94C005CD170 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5C2D63AC1F23A94C005CD170 /* Main.storyboard */; };
+		5C2D63B01F23A94C005CD170 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5C2D63AF1F23A94C005CD170 /* Assets.xcassets */; };
+		5C2D63B31F23A94C005CD170 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5C2D63B11F23A94C005CD170 /* LaunchScreen.storyboard */; };
+		5C2D63BE1F23A94C005CD170 /* VybezTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C2D63BD1F23A94C005CD170 /* VybezTests.swift */; };
+		5C2D63C91F23A94C005CD170 /* VybezUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C2D63C81F23A94C005CD170 /* VybezUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5C2D63BA1F23A94C005CD170 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5C2D639D1F23A94C005CD170 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5C2D63A41F23A94C005CD170;
+			remoteInfo = Vybez;
+		};
+		5C2D63C51F23A94C005CD170 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5C2D639D1F23A94C005CD170 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5C2D63A41F23A94C005CD170;
+			remoteInfo = Vybez;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5C2D63A51F23A94C005CD170 /* Vybez.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Vybez.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5C2D63A81F23A94C005CD170 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		5C2D63AA1F23A94C005CD170 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		5C2D63AD1F23A94C005CD170 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5C2D63AF1F23A94C005CD170 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5C2D63B21F23A94C005CD170 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5C2D63B41F23A94C005CD170 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5C2D63B91F23A94C005CD170 /* VybezTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VybezTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5C2D63BD1F23A94C005CD170 /* VybezTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VybezTests.swift; sourceTree = "<group>"; };
+		5C2D63BF1F23A94C005CD170 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5C2D63C41F23A94C005CD170 /* VybezUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VybezUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5C2D63C81F23A94C005CD170 /* VybezUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VybezUITests.swift; sourceTree = "<group>"; };
+		5C2D63CA1F23A94C005CD170 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5C2D63A21F23A94C005CD170 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5C2D63B61F23A94C005CD170 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5C2D63C11F23A94C005CD170 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5C2D639C1F23A94C005CD170 = {
+			isa = PBXGroup;
+			children = (
+				5C2D63A71F23A94C005CD170 /* Vybez */,
+				5C2D63BC1F23A94C005CD170 /* VybezTests */,
+				5C2D63C71F23A94C005CD170 /* VybezUITests */,
+				5C2D63A61F23A94C005CD170 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5C2D63A61F23A94C005CD170 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5C2D63A51F23A94C005CD170 /* Vybez.app */,
+				5C2D63B91F23A94C005CD170 /* VybezTests.xctest */,
+				5C2D63C41F23A94C005CD170 /* VybezUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5C2D63A71F23A94C005CD170 /* Vybez */ = {
+			isa = PBXGroup;
+			children = (
+				5C2D63A81F23A94C005CD170 /* AppDelegate.swift */,
+				5C2D63AA1F23A94C005CD170 /* ViewController.swift */,
+				5C2D63AC1F23A94C005CD170 /* Main.storyboard */,
+				5C2D63AF1F23A94C005CD170 /* Assets.xcassets */,
+				5C2D63B11F23A94C005CD170 /* LaunchScreen.storyboard */,
+				5C2D63B41F23A94C005CD170 /* Info.plist */,
+			);
+			path = Vybez;
+			sourceTree = "<group>";
+		};
+		5C2D63BC1F23A94C005CD170 /* VybezTests */ = {
+			isa = PBXGroup;
+			children = (
+				5C2D63BD1F23A94C005CD170 /* VybezTests.swift */,
+				5C2D63BF1F23A94C005CD170 /* Info.plist */,
+			);
+			path = VybezTests;
+			sourceTree = "<group>";
+		};
+		5C2D63C71F23A94C005CD170 /* VybezUITests */ = {
+			isa = PBXGroup;
+			children = (
+				5C2D63C81F23A94C005CD170 /* VybezUITests.swift */,
+				5C2D63CA1F23A94C005CD170 /* Info.plist */,
+			);
+			path = VybezUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5C2D63A41F23A94C005CD170 /* Vybez */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5C2D63CD1F23A94C005CD170 /* Build configuration list for PBXNativeTarget "Vybez" */;
+			buildPhases = (
+				5C2D63A11F23A94C005CD170 /* Sources */,
+				5C2D63A21F23A94C005CD170 /* Frameworks */,
+				5C2D63A31F23A94C005CD170 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Vybez;
+			productName = Vybez;
+			productReference = 5C2D63A51F23A94C005CD170 /* Vybez.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5C2D63B81F23A94C005CD170 /* VybezTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5C2D63D01F23A94C005CD170 /* Build configuration list for PBXNativeTarget "VybezTests" */;
+			buildPhases = (
+				5C2D63B51F23A94C005CD170 /* Sources */,
+				5C2D63B61F23A94C005CD170 /* Frameworks */,
+				5C2D63B71F23A94C005CD170 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5C2D63BB1F23A94C005CD170 /* PBXTargetDependency */,
+			);
+			name = VybezTests;
+			productName = VybezTests;
+			productReference = 5C2D63B91F23A94C005CD170 /* VybezTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5C2D63C31F23A94C005CD170 /* VybezUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5C2D63D31F23A94C005CD170 /* Build configuration list for PBXNativeTarget "VybezUITests" */;
+			buildPhases = (
+				5C2D63C01F23A94C005CD170 /* Sources */,
+				5C2D63C11F23A94C005CD170 /* Frameworks */,
+				5C2D63C21F23A94C005CD170 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5C2D63C61F23A94C005CD170 /* PBXTargetDependency */,
+			);
+			name = VybezUITests;
+			productName = VybezUITests;
+			productReference = 5C2D63C41F23A94C005CD170 /* VybezUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5C2D639D1F23A94C005CD170 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = Hassan;
+				TargetAttributes = {
+					5C2D63A41F23A94C005CD170 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+					};
+					5C2D63B81F23A94C005CD170 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 5C2D63A41F23A94C005CD170;
+					};
+					5C2D63C31F23A94C005CD170 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 5C2D63A41F23A94C005CD170;
+					};
+				};
+			};
+			buildConfigurationList = 5C2D63A01F23A94C005CD170 /* Build configuration list for PBXProject "Vybez" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5C2D639C1F23A94C005CD170;
+			productRefGroup = 5C2D63A61F23A94C005CD170 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5C2D63A41F23A94C005CD170 /* Vybez */,
+				5C2D63B81F23A94C005CD170 /* VybezTests */,
+				5C2D63C31F23A94C005CD170 /* VybezUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5C2D63A31F23A94C005CD170 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5C2D63B31F23A94C005CD170 /* LaunchScreen.storyboard in Resources */,
+				5C2D63B01F23A94C005CD170 /* Assets.xcassets in Resources */,
+				5C2D63AE1F23A94C005CD170 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5C2D63B71F23A94C005CD170 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5C2D63C21F23A94C005CD170 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5C2D63A11F23A94C005CD170 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5C2D63AB1F23A94C005CD170 /* ViewController.swift in Sources */,
+				5C2D63A91F23A94C005CD170 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5C2D63B51F23A94C005CD170 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5C2D63BE1F23A94C005CD170 /* VybezTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5C2D63C01F23A94C005CD170 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5C2D63C91F23A94C005CD170 /* VybezUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5C2D63BB1F23A94C005CD170 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5C2D63A41F23A94C005CD170 /* Vybez */;
+			targetProxy = 5C2D63BA1F23A94C005CD170 /* PBXContainerItemProxy */;
+		};
+		5C2D63C61F23A94C005CD170 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5C2D63A41F23A94C005CD170 /* Vybez */;
+			targetProxy = 5C2D63C51F23A94C005CD170 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5C2D63AC1F23A94C005CD170 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5C2D63AD1F23A94C005CD170 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5C2D63B11F23A94C005CD170 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5C2D63B21F23A94C005CD170 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5C2D63CB1F23A94C005CD170 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5C2D63CC1F23A94C005CD170 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5C2D63CE1F23A94C005CD170 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Vybez/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.none.Vybez;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		5C2D63CF1F23A94C005CD170 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Vybez/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.none.Vybez;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		5C2D63D11F23A94C005CD170 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = VybezTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.none.VybezTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Vybez.app/Vybez";
+			};
+			name = Debug;
+		};
+		5C2D63D21F23A94C005CD170 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = VybezTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.none.VybezTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Vybez.app/Vybez";
+			};
+			name = Release;
+		};
+		5C2D63D41F23A94C005CD170 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = VybezUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.none.VybezUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Vybez;
+			};
+			name = Debug;
+		};
+		5C2D63D51F23A94C005CD170 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = VybezUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.none.VybezUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Vybez;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5C2D63A01F23A94C005CD170 /* Build configuration list for PBXProject "Vybez" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5C2D63CB1F23A94C005CD170 /* Debug */,
+				5C2D63CC1F23A94C005CD170 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5C2D63CD1F23A94C005CD170 /* Build configuration list for PBXNativeTarget "Vybez" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5C2D63CE1F23A94C005CD170 /* Debug */,
+				5C2D63CF1F23A94C005CD170 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		5C2D63D01F23A94C005CD170 /* Build configuration list for PBXNativeTarget "VybezTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5C2D63D11F23A94C005CD170 /* Debug */,
+				5C2D63D21F23A94C005CD170 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		5C2D63D31F23A94C005CD170 /* Build configuration list for PBXNativeTarget "VybezUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5C2D63D41F23A94C005CD170 /* Debug */,
+				5C2D63D51F23A94C005CD170 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5C2D639D1F23A94C005CD170 /* Project object */;
+}
