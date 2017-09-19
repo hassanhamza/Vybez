@@ -1,0 +1,6 @@
+framework module Pods_Vybez {
+  umbrella header "Pods-Vybez-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -23,7 +23,7 @@ open class RaisedTabBarController: UITabBarController {
         self.viewControllers?.insert(vc, at: atIndex)
     }
     
-    open func addRaisedButton(_ buttonImage: UIImage?, highlightImage: UIImage?, offset:CGFloat? = nil) {
+    open func addRaisedButton(_ buttonImage: UIImage?, highlightImage: UIImage?, offset:CGFloat? = nil, show:Bool) {
         if let buttonImage = buttonImage {
             let button = UIButton(type: UIButtonType.custom)
             button.autoresizingMask = [UIViewAutoresizing.flexibleRightMargin, UIViewAutoresizing.flexibleLeftMargin, UIViewAutoresizing.flexibleBottomMargin, UIViewAutoresizing.flexibleTopMargin]
@@ -52,6 +52,12 @@ open class RaisedTabBarController: UITabBarController {
                 button.center = center
             }
             
+            if (show == true){
+                button.isHidden = false
+            }else{
+                button.isHidden = true
+            }
+            
             button.addTarget(self, action: #selector(RaisedTabBarController.onRaisedButton(_:)), for: UIControlEvents.touchUpInside)
             self.view.addSubview(button)
         }
@@ -59,7 +65,7 @@ open class RaisedTabBarController: UITabBarController {
     
     open func onRaisedButton(_ sender: UIButton!) {
         
-        let viewController:UIViewController = UIStoryboard(name: "Main", bundle: nil).instantiateViewController(withIdentifier: "SubmitViewController") as! SubmitViewController
+        let viewController:SubmitViewController = UIStoryboard(name: "Main", bundle: nil).instantiateViewController(withIdentifier: "SubmitViewController") as! SubmitViewController
         self.navigationController?.pushViewController(viewController, animated: true)
     }
 }
