@@ -7,9 +7,12 @@
 //
 
 import UIKit
+import BBannerView
 
 class SponsorViewCell: UICollectionViewCell {
 
+    @IBOutlet weak var sponsorImage: UIImageView!
+    
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code

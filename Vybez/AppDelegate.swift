@@ -7,15 +7,33 @@
 //
 
 import UIKit
+import GGLSignIn
+import GoogleSignIn
+import UberRides
+import LyftSDK
+import IQKeyboardManagerSwift
+import FBSDKCoreKit
+import FBSDKLoginKit
 
 @UIApplicationMain
-class AppDelegate: UIResponder, UIApplicationDelegate {
+class AppDelegate: UIResponder, UIApplicationDelegate{
 
     var window: UIWindow?
 
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        var configureError: NSError?
+        GGLContext.sharedInstance().configureWithError(&configureError)
+        assert(configureError == nil, "Error configuring Google services: (String(describing: configureError))")
+        
+        Configuration.setSandboxEnabled(true)
+        Configuration.setFallbackEnabled(false)
+        
+        IQKeyboardManager.sharedManager().enable = true
+        
+        FBSDKApplicationDelegate.sharedInstance().application(application, didFinishLaunchingWithOptions: launchOptions)
+
         return true
     }
 
@@ -40,7 +58,37 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     func applicationWillTerminate(_ application: UIApplication) {
         // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
     }
-
-
+    
+//    func application(_ app: UIApplication, open url: URL, options: [UIApplicationOpenURLOptionsKey : Any] = [:]) -> Bool {
+//        
+//         GIDSignIn.sharedInstance().handle(url,
+//                                                       //added exclamation mark
+//            sourceApplication: String(describing: options[UIApplicationOpenURLOptionsKey.sourceApplication]!),
+//            annotation: options[UIApplicationOpenURLOptionsKey.annotation])
+//        
+//        FBSDKApplicationDelegate.sharedInstance().application(
+//            app,
+//            open: url as URL!,
+//            sourceApplication: options[UIApplicationOpenURLOptionsKey.sourceApplication] as! String,
+//            annotation: options[UIApplicationOpenURLOptionsKey.annotation])
+//        
+//        return true
+//        
+//    }
+    
+    @nonobjc func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
+        LyftConfiguration.developer = (token:"rQbt6zpu18pU43AJBVKNAkEksJJKwgWDXOo0OdUswCT9lqhaXOLUZqLQhS1NguBPvXmxhM6Xue17SdvQd8FWVZK44gVp390vQ1/E0fZaNEXurLMComicGDk=", clientId: "3pVH4LEUxJ4e")
+        // Complete other setup
+        return true
+    }
+    
+    
+    public func application(_ application: UIApplication, open url: URL, sourceApplication: String?, annotation: Any) -> Bool {
+        return FBSDKApplicationDelegate.sharedInstance().application(
+            application,
+            open: url as URL!,
+            sourceApplication: sourceApplication,
+            annotation: annotation)
+    }
 }
 

@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		05A0C0CC14DE6D5620A377B3 /* Pods_Vybez.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A130DD9A8E32AA7E0DCEA8F0 /* Pods_Vybez.framework */; };
+		24F8A1CDABBE5060859FBE7F /* Pods_VybezUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FBD91CB091C97BA96415EFFA /* Pods_VybezUITests.framework */; };
+		5C04584C1F334677006A1EFD /* Events.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C04584B1F334677006A1EFD /* Events.swift */; };
 		5C2D63A91F23A94C005CD170 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C2D63A81F23A94C005CD170 /* AppDelegate.swift */; };
 		5C2D63AB1F23A94C005CD170 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C2D63AA1F23A94C005CD170 /* ViewController.swift */; };
 		5C2D63AE1F23A94C005CD170 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5C2D63AC1F23A94C005CD170 /* Main.storyboard */; };
@@ -14,6 +17,54 @@
 		5C2D63B31F23A94C005CD170 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5C2D63B11F23A94C005CD170 /* LaunchScreen.storyboard */; };
 		5C2D63BE1F23A94C005CD170 /* VybezTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C2D63BD1F23A94C005CD170 /* VybezTests.swift */; };
 		5C2D63C91F23A94C005CD170 /* VybezUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C2D63C81F23A94C005CD170 /* VybezUITests.swift */; };
+		5C2D63D81F23A994005CD170 /* RaisedTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C2D63D71F23A994005CD170 /* RaisedTabBarController.swift */; };
+		5C2D63E21F23A9B8005CD170 /* CategoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C2D63D91F23A9B8005CD170 /* CategoryViewController.swift */; };
+		5C2D63E31F23A9B8005CD170 /* DetailDiscoveryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C2D63DA1F23A9B8005CD170 /* DetailDiscoveryViewController.swift */; };
+		5C2D63E41F23A9B8005CD170 /* DiscoveryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C2D63DB1F23A9B8005CD170 /* DiscoveryViewController.swift */; };
+		5C2D63E51F23A9B8005CD170 /* EventDetailController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C2D63DC1F23A9B8005CD170 /* EventDetailController.swift */; };
+		5C2D63E61F23A9B8005CD170 /* FavoriteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C2D63DD1F23A9B8005CD170 /* FavoriteViewController.swift */; };
+		5C2D63E71F23A9B8005CD170 /* SigninViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C2D63DE1F23A9B8005CD170 /* SigninViewController.swift */; };
+		5C2D63E81F23A9B8005CD170 /* SubmitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C2D63DF1F23A9B8005CD170 /* SubmitViewController.swift */; };
+		5C2D63E91F23A9B8005CD170 /* TabbarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C2D63E01F23A9B8005CD170 /* TabbarViewController.swift */; };
+		5C2D63EA1F23A9B8005CD170 /* UserViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C2D63E11F23A9B8005CD170 /* UserViewController.swift */; };
+		5C2D63F21F23B347005CD170 /* EventViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C2D63EC1F23B347005CD170 /* EventViewCell.swift */; };
+		5C2D63F31F23B347005CD170 /* EventViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5C2D63ED1F23B347005CD170 /* EventViewCell.xib */; };
+		5C2D63F41F23B347005CD170 /* HeaderViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C2D63EE1F23B347005CD170 /* HeaderViewCell.swift */; };
+		5C2D63F51F23B347005CD170 /* HeaderViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5C2D63EF1F23B347005CD170 /* HeaderViewCell.xib */; };
+		5C2D63F61F23B347005CD170 /* SponsorViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C2D63F01F23B347005CD170 /* SponsorViewCell.swift */; };
+		5C2D63F71F23B347005CD170 /* SponsorViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5C2D63F11F23B347005CD170 /* SponsorViewCell.xib */; };
+		5C2D63F91F23B538005CD170 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5C2D63F81F23B538005CD170 /* GoogleService-Info.plist */; };
+		5C2D63FE1F23B587005CD170 /* CategoryViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C2D63FB1F23B587005CD170 /* CategoryViewCell.swift */; };
+		5C2D63FF1F23B587005CD170 /* DetailDiscoverViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C2D63FC1F23B587005CD170 /* DetailDiscoverViewCell.swift */; };
+		5C2D64001F23B587005CD170 /* FavoriteViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C2D63FD1F23B587005CD170 /* FavoriteViewCell.swift */; };
+		5C2D64061F23B64F005CD170 /* Lato-Bold.ttf in Frameworks */ = {isa = PBXBuildFile; fileRef = 5C2D64021F23B5B0005CD170 /* Lato-Bold.ttf */; };
+		5C2D64071F23B64F005CD170 /* Proxima Nova Bold.ttf in Frameworks */ = {isa = PBXBuildFile; fileRef = 5C2D64031F23B5B0005CD170 /* Proxima Nova Bold.ttf */; };
+		5C2D64081F23B64F005CD170 /* Proxima Nova Regular.ttf in Frameworks */ = {isa = PBXBuildFile; fileRef = 5C2D64041F23B5B0005CD170 /* Proxima Nova Regular.ttf */; };
+		5C2D64091F23B64F005CD170 /* Proxima Nova Semibold.ttf in Frameworks */ = {isa = PBXBuildFile; fileRef = 5C2D64051F23B5B0005CD170 /* Proxima Nova Semibold.ttf */; };
+		5C2D640A1F23B677005CD170 /* Assets.xcassets in Frameworks */ = {isa = PBXBuildFile; fileRef = 5C2D63AF1F23A94C005CD170 /* Assets.xcassets */; };
+		5C2D640B1F23B69B005CD170 /* LaunchScreen.storyboard in Frameworks */ = {isa = PBXBuildFile; fileRef = 5C2D63B11F23A94C005CD170 /* LaunchScreen.storyboard */; };
+		5C65D8B51F29684300D2D72F /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5C65D8B41F29684300D2D72F /* CoreLocation.framework */; };
+		5C65D8B71F2972F600D2D72F /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5C65D8B61F2972F600D2D72F /* MapKit.framework */; };
+		5C65D8B91F2A45E200D2D72F /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C65D8B81F2A45E200D2D72F /* MapViewController.swift */; };
+		5C65D8BD1F2B437E00D2D72F /* TextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C65D8BC1F2B437E00D2D72F /* TextField.swift */; };
+		5C65D8BF1F2BE96600D2D72F /* Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C65D8BE1F2BE96600D2D72F /* Helper.swift */; };
+		5C65D8C11F2BEA6500D2D72F /* Controller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C65D8C01F2BEA6500D2D72F /* Controller.swift */; };
+		5C6FD7171F6AC48600714A81 /* Favorites.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C6FD7161F6AC48500714A81 /* Favorites.swift */; };
+		5C8DE1181F6DFD76008FC086 /* ResetPasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C8DE1171F6DFD76008FC086 /* ResetPasswordViewController.swift */; };
+		5C9144591F26B6A5004A4A1D /* Webservice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C9144581F26B6A5004A4A1D /* Webservice.swift */; };
+		5CC1112A1F6B55A00092A3AD /* Like.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CC111291F6B55A00092A3AD /* Like.swift */; };
+		5CDD800B1F47A04600D06DCC /* HeaderTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CDD80091F47A04600D06DCC /* HeaderTableViewCell.swift */; };
+		5CDD800C1F47A04600D06DCC /* HeaderTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5CDD800A1F47A04600D06DCC /* HeaderTableViewCell.xib */; };
+		5CDD800F1F47A06200D06DCC /* EventTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CDD800D1F47A06200D06DCC /* EventTableViewCell.swift */; };
+		5CDD80101F47A06200D06DCC /* EventTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5CDD800E1F47A06200D06DCC /* EventTableViewCell.xib */; };
+		5CDD80131F47A08000D06DCC /* SponsorTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CDD80111F47A07F00D06DCC /* SponsorTableViewCell.swift */; };
+		5CDD80141F47A08000D06DCC /* SponsorTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5CDD80121F47A07F00D06DCC /* SponsorTableViewCell.xib */; };
+		5CDD80161F48D2CA00D06DCC /* SelectCollectionViewDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CDD80151F48D2CA00D06DCC /* SelectCollectionViewDelegate.swift */; };
+		5CE5CBBB1F661C4A00DB7178 /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5CE5CBB81F661C4A00DB7178 /* Bolts.framework */; };
+		5CE5CBBC1F661C4A00DB7178 /* FBSDKCoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5CE5CBB91F661C4A00DB7178 /* FBSDKCoreKit.framework */; };
+		5CE5CBBD1F661C4A00DB7178 /* FBSDKLoginKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5CE5CBBA1F661C4A00DB7178 /* FBSDKLoginKit.framework */; };
+		5CEDB67C1F39F4BA00D40493 /* WebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CEDB67B1F39F4BA00D40493 /* WebViewController.swift */; };
+		B4C3600AA7A5531268E1E231 /* Pods_VybezTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE486B1FED610003A1716591 /* Pods_VybezTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +85,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		00DDC66B80516FDC5BA196F3 /* Pods-VybezTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VybezTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-VybezTests/Pods-VybezTests.debug.xcconfig"; sourceTree = "<group>"; };
+		0DB9F7DB4165B73833B6CAC7 /* Pods-Vybez.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Vybez.release.xcconfig"; path = "Pods/Target Support Files/Pods-Vybez/Pods-Vybez.release.xcconfig"; sourceTree = "<group>"; };
+		5C04584B1F334677006A1EFD /* Events.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Events.swift; sourceTree = "<group>"; };
 		5C2D63A51F23A94C005CD170 /* Vybez.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Vybez.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5C2D63A81F23A94C005CD170 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5C2D63AA1F23A94C005CD170 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +101,59 @@
 		5C2D63C41F23A94C005CD170 /* VybezUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VybezUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5C2D63C81F23A94C005CD170 /* VybezUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VybezUITests.swift; sourceTree = "<group>"; };
 		5C2D63CA1F23A94C005CD170 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5C2D63D71F23A994005CD170 /* RaisedTabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RaisedTabBarController.swift; sourceTree = "<group>"; };
+		5C2D63D91F23A9B8005CD170 /* CategoryViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CategoryViewController.swift; sourceTree = "<group>"; };
+		5C2D63DA1F23A9B8005CD170 /* DetailDiscoveryViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailDiscoveryViewController.swift; sourceTree = "<group>"; };
+		5C2D63DB1F23A9B8005CD170 /* DiscoveryViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DiscoveryViewController.swift; sourceTree = "<group>"; };
+		5C2D63DC1F23A9B8005CD170 /* EventDetailController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EventDetailController.swift; sourceTree = "<group>"; };
+		5C2D63DD1F23A9B8005CD170 /* FavoriteViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FavoriteViewController.swift; sourceTree = "<group>"; };
+		5C2D63DE1F23A9B8005CD170 /* SigninViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SigninViewController.swift; sourceTree = "<group>"; };
+		5C2D63DF1F23A9B8005CD170 /* SubmitViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SubmitViewController.swift; sourceTree = "<group>"; };
+		5C2D63E01F23A9B8005CD170 /* TabbarViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabbarViewController.swift; sourceTree = "<group>"; };
+		5C2D63E11F23A9B8005CD170 /* UserViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserViewController.swift; sourceTree = "<group>"; };
+		5C2D63EC1F23B347005CD170 /* EventViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EventViewCell.swift; sourceTree = "<group>"; };
+		5C2D63ED1F23B347005CD170 /* EventViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = EventViewCell.xib; sourceTree = "<group>"; };
+		5C2D63EE1F23B347005CD170 /* HeaderViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HeaderViewCell.swift; sourceTree = "<group>"; };
+		5C2D63EF1F23B347005CD170 /* HeaderViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HeaderViewCell.xib; sourceTree = "<group>"; };
+		5C2D63F01F23B347005CD170 /* SponsorViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SponsorViewCell.swift; sourceTree = "<group>"; };
+		5C2D63F11F23B347005CD170 /* SponsorViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SponsorViewCell.xib; sourceTree = "<group>"; };
+		5C2D63F81F23B538005CD170 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		5C2D63FB1F23B587005CD170 /* CategoryViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CategoryViewCell.swift; sourceTree = "<group>"; };
+		5C2D63FC1F23B587005CD170 /* DetailDiscoverViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailDiscoverViewCell.swift; sourceTree = "<group>"; };
+		5C2D63FD1F23B587005CD170 /* FavoriteViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FavoriteViewCell.swift; sourceTree = "<group>"; };
+		5C2D64021F23B5B0005CD170 /* Lato-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-Bold.ttf"; sourceTree = "<group>"; };
+		5C2D64031F23B5B0005CD170 /* Proxima Nova Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Proxima Nova Bold.ttf"; sourceTree = "<group>"; };
+		5C2D64041F23B5B0005CD170 /* Proxima Nova Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Proxima Nova Regular.ttf"; sourceTree = "<group>"; };
+		5C2D64051F23B5B0005CD170 /* Proxima Nova Semibold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Proxima Nova Semibold.ttf"; sourceTree = "<group>"; };
+		5C65D8B41F29684300D2D72F /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		5C65D8B61F2972F600D2D72F /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		5C65D8B81F2A45E200D2D72F /* MapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		5C65D8BC1F2B437E00D2D72F /* TextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextField.swift; sourceTree = "<group>"; };
+		5C65D8BE1F2BE96600D2D72F /* Helper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Helper.swift; sourceTree = "<group>"; };
+		5C65D8C01F2BEA6500D2D72F /* Controller.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Controller.swift; sourceTree = "<group>"; };
+		5C6FD7161F6AC48500714A81 /* Favorites.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Favorites.swift; sourceTree = "<group>"; };
+		5C736ADA1F258B7200A20E47 /* Vybez-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Vybez-Bridging-Header.h"; sourceTree = "<group>"; };
+		5C8DE1171F6DFD76008FC086 /* ResetPasswordViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResetPasswordViewController.swift; sourceTree = "<group>"; };
+		5C9144581F26B6A5004A4A1D /* Webservice.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Webservice.swift; sourceTree = "<group>"; };
+		5CC111291F6B55A00092A3AD /* Like.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Like.swift; sourceTree = "<group>"; };
+		5CDD80091F47A04600D06DCC /* HeaderTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HeaderTableViewCell.swift; sourceTree = "<group>"; };
+		5CDD800A1F47A04600D06DCC /* HeaderTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HeaderTableViewCell.xib; sourceTree = "<group>"; };
+		5CDD800D1F47A06200D06DCC /* EventTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EventTableViewCell.swift; sourceTree = "<group>"; };
+		5CDD800E1F47A06200D06DCC /* EventTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = EventTableViewCell.xib; sourceTree = "<group>"; };
+		5CDD80111F47A07F00D06DCC /* SponsorTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SponsorTableViewCell.swift; sourceTree = "<group>"; };
+		5CDD80121F47A07F00D06DCC /* SponsorTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SponsorTableViewCell.xib; sourceTree = "<group>"; };
+		5CDD80151F48D2CA00D06DCC /* SelectCollectionViewDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SelectCollectionViewDelegate.swift; sourceTree = "<group>"; };
+		5CE5CBB81F661C4A00DB7178 /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Bolts.framework; sourceTree = "<group>"; };
+		5CE5CBB91F661C4A00DB7178 /* FBSDKCoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKCoreKit.framework; sourceTree = "<group>"; };
+		5CE5CBBA1F661C4A00DB7178 /* FBSDKLoginKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKLoginKit.framework; sourceTree = "<group>"; };
+		5CEDB67B1F39F4BA00D40493 /* WebViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = WebViewController.swift; path = ../WebViewController.swift; sourceTree = "<group>"; };
+		6FCF860755421A47DD348A7D /* Pods-VybezUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VybezUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-VybezUITests/Pods-VybezUITests.release.xcconfig"; sourceTree = "<group>"; };
+		86FDA192D9993C91571C85EC /* Pods-VybezUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VybezUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-VybezUITests/Pods-VybezUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		A130DD9A8E32AA7E0DCEA8F0 /* Pods_Vybez.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Vybez.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE486B1FED610003A1716591 /* Pods_VybezTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VybezTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F7A2764475944CB8671E7870 /* Pods-VybezTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VybezTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-VybezTests/Pods-VybezTests.release.xcconfig"; sourceTree = "<group>"; };
+		F8A2DDE599B615C301D78B8C /* Pods-Vybez.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Vybez.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Vybez/Pods-Vybez.debug.xcconfig"; sourceTree = "<group>"; };
+		FBD91CB091C97BA96415EFFA /* Pods_VybezUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VybezUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +161,18 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5C65D8B51F29684300D2D72F /* CoreLocation.framework in Frameworks */,
+				5C2D640B1F23B69B005CD170 /* LaunchScreen.storyboard in Frameworks */,
+				5CE5CBBD1F661C4A00DB7178 /* FBSDKLoginKit.framework in Frameworks */,
+				5C2D640A1F23B677005CD170 /* Assets.xcassets in Frameworks */,
+				5CE5CBBC1F661C4A00DB7178 /* FBSDKCoreKit.framework in Frameworks */,
+				5C2D64061F23B64F005CD170 /* Lato-Bold.ttf in Frameworks */,
+				5C65D8B71F2972F600D2D72F /* MapKit.framework in Frameworks */,
+				5CE5CBBB1F661C4A00DB7178 /* Bolts.framework in Frameworks */,
+				5C2D64071F23B64F005CD170 /* Proxima Nova Bold.ttf in Frameworks */,
+				5C2D64081F23B64F005CD170 /* Proxima Nova Regular.ttf in Frameworks */,
+				5C2D64091F23B64F005CD170 /* Proxima Nova Semibold.ttf in Frameworks */,
+				05A0C0CC14DE6D5620A377B3 /* Pods_Vybez.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +180,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B4C3600AA7A5531268E1E231 /* Pods_VybezTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,19 +188,68 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				24F8A1CDABBE5060859FBE7F /* Pods_VybezUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1AB827F91A801ED009793AC5 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F8A2DDE599B615C301D78B8C /* Pods-Vybez.debug.xcconfig */,
+				0DB9F7DB4165B73833B6CAC7 /* Pods-Vybez.release.xcconfig */,
+				00DDC66B80516FDC5BA196F3 /* Pods-VybezTests.debug.xcconfig */,
+				F7A2764475944CB8671E7870 /* Pods-VybezTests.release.xcconfig */,
+				86FDA192D9993C91571C85EC /* Pods-VybezUITests.debug.xcconfig */,
+				6FCF860755421A47DD348A7D /* Pods-VybezUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		315FD892055BC336C42BCC4D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5C65D8B61F2972F600D2D72F /* MapKit.framework */,
+				5C65D8B41F29684300D2D72F /* CoreLocation.framework */,
+				A130DD9A8E32AA7E0DCEA8F0 /* Pods_Vybez.framework */,
+				EE486B1FED610003A1716591 /* Pods_VybezTests.framework */,
+				FBD91CB091C97BA96415EFFA /* Pods_VybezUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5C04584A1F334649006A1EFD /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				5C04584B1F334677006A1EFD /* Events.swift */,
+				5C6FD7161F6AC48500714A81 /* Favorites.swift */,
+				5CC111291F6B55A00092A3AD /* Like.swift */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
 		5C2D639C1F23A94C005CD170 = {
 			isa = PBXGroup;
 			children = (
+				5CE5CBB81F661C4A00DB7178 /* Bolts.framework */,
+				5CE5CBB91F661C4A00DB7178 /* FBSDKCoreKit.framework */,
+				5CE5CBBA1F661C4A00DB7178 /* FBSDKLoginKit.framework */,
+				5CDD80151F48D2CA00D06DCC /* SelectCollectionViewDelegate.swift */,
+				5C736ADA1F258B7200A20E47 /* Vybez-Bridging-Header.h */,
+				5C04584A1F334649006A1EFD /* Models */,
+				5C9144571F2664A1004A4A1D /* Webservice */,
+				5C2D64011F23B5A0005CD170 /* Fonts */,
+				5C2D63D61F23A959005CD170 /* Custom Classes */,
 				5C2D63A71F23A94C005CD170 /* Vybez */,
+				5C2D63EB1F23B31A005CD170 /* Custom Cell */,
+				5C2D63FA1F23B56C005CD170 /* TableViewCell */,
 				5C2D63BC1F23A94C005CD170 /* VybezTests */,
 				5C2D63C71F23A94C005CD170 /* VybezUITests */,
 				5C2D63A61F23A94C005CD170 /* Products */,
+				1AB827F91A801ED009793AC5 /* Pods */,
+				315FD892055BC336C42BCC4D /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,9 +268,22 @@
 			children = (
 				5C2D63A81F23A94C005CD170 /* AppDelegate.swift */,
 				5C2D63AA1F23A94C005CD170 /* ViewController.swift */,
+				5C2D63DE1F23A9B8005CD170 /* SigninViewController.swift */,
+				5C2D63D91F23A9B8005CD170 /* CategoryViewController.swift */,
+				5C2D63DA1F23A9B8005CD170 /* DetailDiscoveryViewController.swift */,
+				5C2D63DB1F23A9B8005CD170 /* DiscoveryViewController.swift */,
+				5C2D63DC1F23A9B8005CD170 /* EventDetailController.swift */,
+				5C2D63DD1F23A9B8005CD170 /* FavoriteViewController.swift */,
+				5C2D63DF1F23A9B8005CD170 /* SubmitViewController.swift */,
+				5C2D63E01F23A9B8005CD170 /* TabbarViewController.swift */,
+				5C2D63E11F23A9B8005CD170 /* UserViewController.swift */,
+				5C65D8B81F2A45E200D2D72F /* MapViewController.swift */,
+				5CEDB67B1F39F4BA00D40493 /* WebViewController.swift */,
+				5C8DE1171F6DFD76008FC086 /* ResetPasswordViewController.swift */,
 				5C2D63AC1F23A94C005CD170 /* Main.storyboard */,
 				5C2D63AF1F23A94C005CD170 /* Assets.xcassets */,
 				5C2D63B11F23A94C005CD170 /* LaunchScreen.storyboard */,
+				5C2D63F81F23B538005CD170 /* GoogleService-Info.plist */,
 				5C2D63B41F23A94C005CD170 /* Info.plist */,
 			);
 			path = Vybez;
@@ -125,6 +307,65 @@
 			path = VybezUITests;
 			sourceTree = "<group>";
 		};
+		5C2D63D61F23A959005CD170 /* Custom Classes */ = {
+			isa = PBXGroup;
+			children = (
+				5C2D63D71F23A994005CD170 /* RaisedTabBarController.swift */,
+				5C65D8BC1F2B437E00D2D72F /* TextField.swift */,
+				5C65D8C01F2BEA6500D2D72F /* Controller.swift */,
+				5C65D8BE1F2BE96600D2D72F /* Helper.swift */,
+			);
+			name = "Custom Classes";
+			sourceTree = "<group>";
+		};
+		5C2D63EB1F23B31A005CD170 /* Custom Cell */ = {
+			isa = PBXGroup;
+			children = (
+				5C2D63EC1F23B347005CD170 /* EventViewCell.swift */,
+				5C2D63ED1F23B347005CD170 /* EventViewCell.xib */,
+				5C2D63EE1F23B347005CD170 /* HeaderViewCell.swift */,
+				5C2D63EF1F23B347005CD170 /* HeaderViewCell.xib */,
+				5C2D63F01F23B347005CD170 /* SponsorViewCell.swift */,
+				5C2D63F11F23B347005CD170 /* SponsorViewCell.xib */,
+			);
+			name = "Custom Cell";
+			sourceTree = "<group>";
+		};
+		5C2D63FA1F23B56C005CD170 /* TableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				5C2D63FB1F23B587005CD170 /* CategoryViewCell.swift */,
+				5C2D63FC1F23B587005CD170 /* DetailDiscoverViewCell.swift */,
+				5C2D63FD1F23B587005CD170 /* FavoriteViewCell.swift */,
+				5CDD80091F47A04600D06DCC /* HeaderTableViewCell.swift */,
+				5CDD800A1F47A04600D06DCC /* HeaderTableViewCell.xib */,
+				5CDD800D1F47A06200D06DCC /* EventTableViewCell.swift */,
+				5CDD800E1F47A06200D06DCC /* EventTableViewCell.xib */,
+				5CDD80111F47A07F00D06DCC /* SponsorTableViewCell.swift */,
+				5CDD80121F47A07F00D06DCC /* SponsorTableViewCell.xib */,
+			);
+			name = TableViewCell;
+			sourceTree = "<group>";
+		};
+		5C2D64011F23B5A0005CD170 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				5C2D64021F23B5B0005CD170 /* Lato-Bold.ttf */,
+				5C2D64031F23B5B0005CD170 /* Proxima Nova Bold.ttf */,
+				5C2D64041F23B5B0005CD170 /* Proxima Nova Regular.ttf */,
+				5C2D64051F23B5B0005CD170 /* Proxima Nova Semibold.ttf */,
+			);
+			name = Fonts;
+			sourceTree = "<group>";
+		};
+		5C9144571F2664A1004A4A1D /* Webservice */ = {
+			isa = PBXGroup;
+			children = (
+				5C9144581F26B6A5004A4A1D /* Webservice.swift */,
+			);
+			name = Webservice;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +373,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5C2D63CD1F23A94C005CD170 /* Build configuration list for PBXNativeTarget "Vybez" */;
 			buildPhases = (
+				2B4AD6240E4FD1D3A250DCE5 /* [CP] Check Pods Manifest.lock */,
 				5C2D63A11F23A94C005CD170 /* Sources */,
 				5C2D63A21F23A94C005CD170 /* Frameworks */,
 				5C2D63A31F23A94C005CD170 /* Resources */,
+				A7E5D9AD670DCC1287E782B6 /* [CP] Embed Pods Frameworks */,
+				D1D1C56E8B8D9A4C7CFF8D60 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -149,9 +393,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5C2D63D01F23A94C005CD170 /* Build configuration list for PBXNativeTarget "VybezTests" */;
 			buildPhases = (
+				CFDD6F0C38CA54182442371D /* [CP] Check Pods Manifest.lock */,
 				5C2D63B51F23A94C005CD170 /* Sources */,
 				5C2D63B61F23A94C005CD170 /* Frameworks */,
 				5C2D63B71F23A94C005CD170 /* Resources */,
+				A29C3A7E8358687F1F4B205A /* [CP] Embed Pods Frameworks */,
+				B266452EDB48A2C492FFEDEC /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -167,9 +414,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5C2D63D31F23A94C005CD170 /* Build configuration list for PBXNativeTarget "VybezUITests" */;
 			buildPhases = (
+				3E4402F178B64A825FF68F2D /* [CP] Check Pods Manifest.lock */,
 				5C2D63C01F23A94C005CD170 /* Sources */,
 				5C2D63C11F23A94C005CD170 /* Frameworks */,
 				5C2D63C21F23A94C005CD170 /* Resources */,
+				9C3AFBE4284DA90324E5935C /* [CP] Embed Pods Frameworks */,
+				21D70DF87869BA30567E9979 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -193,7 +443,13 @@
 				TargetAttributes = {
 					5C2D63A41F23A94C005CD170 = {
 						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 4Y6T6Q978V;
 						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.Maps.iOS = {
+								enabled = 1;
+							};
+						};
 					};
 					5C2D63B81F23A94C005CD170 = {
 						CreatedOnToolsVersion = 8.3.3;
@@ -234,7 +490,14 @@
 			files = (
 				5C2D63B31F23A94C005CD170 /* LaunchScreen.storyboard in Resources */,
 				5C2D63B01F23A94C005CD170 /* Assets.xcassets in Resources */,
+				5C2D63F51F23B347005CD170 /* HeaderViewCell.xib in Resources */,
 				5C2D63AE1F23A94C005CD170 /* Main.storyboard in Resources */,
+				5CDD80141F47A08000D06DCC /* SponsorTableViewCell.xib in Resources */,
+				5CDD800C1F47A04600D06DCC /* HeaderTableViewCell.xib in Resources */,
+				5C2D63F31F23B347005CD170 /* EventViewCell.xib in Resources */,
+				5CDD80101F47A06200D06DCC /* EventTableViewCell.xib in Resources */,
+				5C2D63F71F23B347005CD170 /* SponsorViewCell.xib in Resources */,
+				5C2D63F91F23B538005CD170 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -254,13 +517,181 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		21D70DF87869BA30567E9979 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-VybezUITests/Pods-VybezUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2B4AD6240E4FD1D3A250DCE5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		3E4402F178B64A825FF68F2D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		9C3AFBE4284DA90324E5935C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-VybezUITests/Pods-VybezUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A29C3A7E8358687F1F4B205A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-VybezTests/Pods-VybezTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A7E5D9AD670DCC1287E782B6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Vybez/Pods-Vybez-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B266452EDB48A2C492FFEDEC /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-VybezTests/Pods-VybezTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CFDD6F0C38CA54182442371D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		D1D1C56E8B8D9A4C7CFF8D60 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Vybez/Pods-Vybez-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		5C2D63A11F23A94C005CD170 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5C2D63E31F23A9B8005CD170 /* DetailDiscoveryViewController.swift in Sources */,
+				5C65D8BD1F2B437E00D2D72F /* TextField.swift in Sources */,
+				5C2D63F41F23B347005CD170 /* HeaderViewCell.swift in Sources */,
+				5C6FD7171F6AC48600714A81 /* Favorites.swift in Sources */,
+				5CC1112A1F6B55A00092A3AD /* Like.swift in Sources */,
+				5C2D63EA1F23A9B8005CD170 /* UserViewController.swift in Sources */,
+				5C65D8B91F2A45E200D2D72F /* MapViewController.swift in Sources */,
+				5C2D63E41F23A9B8005CD170 /* DiscoveryViewController.swift in Sources */,
+				5C2D63F61F23B347005CD170 /* SponsorViewCell.swift in Sources */,
+				5C2D63F21F23B347005CD170 /* EventViewCell.swift in Sources */,
+				5C9144591F26B6A5004A4A1D /* Webservice.swift in Sources */,
+				5CDD80161F48D2CA00D06DCC /* SelectCollectionViewDelegate.swift in Sources */,
+				5C2D64001F23B587005CD170 /* FavoriteViewCell.swift in Sources */,
+				5C2D63E91F23A9B8005CD170 /* TabbarViewController.swift in Sources */,
+				5C65D8BF1F2BE96600D2D72F /* Helper.swift in Sources */,
+				5C04584C1F334677006A1EFD /* Events.swift in Sources */,
+				5CEDB67C1F39F4BA00D40493 /* WebViewController.swift in Sources */,
+				5C2D63E21F23A9B8005CD170 /* CategoryViewController.swift in Sources */,
 				5C2D63AB1F23A94C005CD170 /* ViewController.swift in Sources */,
+				5C8DE1181F6DFD76008FC086 /* ResetPasswordViewController.swift in Sources */,
 				5C2D63A91F23A94C005CD170 /* AppDelegate.swift in Sources */,
+				5C2D63FE1F23B587005CD170 /* CategoryViewCell.swift in Sources */,
+				5CDD800F1F47A06200D06DCC /* EventTableViewCell.swift in Sources */,
+				5C2D63D81F23A994005CD170 /* RaisedTabBarController.swift in Sources */,
+				5C2D63E81F23A9B8005CD170 /* SubmitViewController.swift in Sources */,
+				5CDD800B1F47A04600D06DCC /* HeaderTableViewCell.swift in Sources */,
+				5C65D8C11F2BEA6500D2D72F /* Controller.swift in Sources */,
+				5C2D63E61F23A9B8005CD170 /* FavoriteViewController.swift in Sources */,
+				5CDD80131F47A08000D06DCC /* SponsorTableViewCell.swift in Sources */,
+				5C2D63E51F23A9B8005CD170 /* EventDetailController.swift in Sources */,
+				5C2D63FF1F23B587005CD170 /* DetailDiscoverViewCell.swift in Sources */,
+				5C2D63E71F23A9B8005CD170 /* SigninViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -410,9 +841,32 @@
 		};
 		5C2D63CE1F23A94C005CD170 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F8A2DDE599B615C301D78B8C /* Pods-Vybez.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 4Y6T6Q978V;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$PODS_CONFIGURATION_BUILD_DIR/Alamofire\"",
+					"\"$PODS_CONFIGURATION_BUILD_DIR/BBannerView\"",
+					"\"$PODS_CONFIGURATION_BUILD_DIR/GTMOAuth2\"",
+					"\"$PODS_CONFIGURATION_BUILD_DIR/GTMSessionFetcher\"",
+					"\"$PODS_CONFIGURATION_BUILD_DIR/GoogleToolboxForMac\"",
+					"\"$PODS_CONFIGURATION_BUILD_DIR/IQKeyboardManagerSwift\"",
+					"\"$PODS_CONFIGURATION_BUILD_DIR/LyftSDK\"",
+					"\"$PODS_CONFIGURATION_BUILD_DIR/MBProgressHUD\"",
+					"\"$PODS_CONFIGURATION_BUILD_DIR/ObjectMapper\"",
+					"\"$PODS_CONFIGURATION_BUILD_DIR/SDWebImage\"",
+					"\"$PODS_CONFIGURATION_BUILD_DIR/UberRides\"",
+					"\"${PODS_ROOT}/FirebaseAnalytics/Frameworks\"",
+					"\"${PODS_ROOT}/FirebaseCore/Frameworks\"",
+					"\"${PODS_ROOT}/FirebaseInstanceID/Frameworks\"",
+					"\"${PODS_ROOT}/Google/Frameworks\"",
+					"\"${PODS_ROOT}/GoogleSignIn/Frameworks\"",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = Vybez/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.none.Vybez;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -422,9 +876,32 @@
 		};
 		5C2D63CF1F23A94C005CD170 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0DB9F7DB4165B73833B6CAC7 /* Pods-Vybez.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 4Y6T6Q978V;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$PODS_CONFIGURATION_BUILD_DIR/Alamofire\"",
+					"\"$PODS_CONFIGURATION_BUILD_DIR/BBannerView\"",
+					"\"$PODS_CONFIGURATION_BUILD_DIR/GTMOAuth2\"",
+					"\"$PODS_CONFIGURATION_BUILD_DIR/GTMSessionFetcher\"",
+					"\"$PODS_CONFIGURATION_BUILD_DIR/GoogleToolboxForMac\"",
+					"\"$PODS_CONFIGURATION_BUILD_DIR/IQKeyboardManagerSwift\"",
+					"\"$PODS_CONFIGURATION_BUILD_DIR/LyftSDK\"",
+					"\"$PODS_CONFIGURATION_BUILD_DIR/MBProgressHUD\"",
+					"\"$PODS_CONFIGURATION_BUILD_DIR/ObjectMapper\"",
+					"\"$PODS_CONFIGURATION_BUILD_DIR/SDWebImage\"",
+					"\"$PODS_CONFIGURATION_BUILD_DIR/UberRides\"",
+					"\"${PODS_ROOT}/FirebaseAnalytics/Frameworks\"",
+					"\"${PODS_ROOT}/FirebaseCore/Frameworks\"",
+					"\"${PODS_ROOT}/FirebaseInstanceID/Frameworks\"",
+					"\"${PODS_ROOT}/Google/Frameworks\"",
+					"\"${PODS_ROOT}/GoogleSignIn/Frameworks\"",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = Vybez/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.none.Vybez;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -434,6 +911,7 @@
 		};
 		5C2D63D11F23A94C005CD170 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 00DDC66B80516FDC5BA196F3 /* Pods-VybezTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -448,6 +926,7 @@
 		};
 		5C2D63D21F23A94C005CD170 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F7A2764475944CB8671E7870 /* Pods-VybezTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -462,6 +941,7 @@
 		};
 		5C2D63D41F23A94C005CD170 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 86FDA192D9993C91571C85EC /* Pods-VybezUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				INFOPLIST_FILE = VybezUITests/Info.plist;
@@ -475,6 +955,7 @@
 		};
 		5C2D63D51F23A94C005CD170 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6FCF860755421A47DD348A7D /* Pods-VybezUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				INFOPLIST_FILE = VybezUITests/Info.plist;
@@ -505,6 +986,7 @@
 				5C2D63CF1F23A94C005CD170 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5C2D63D01F23A94C005CD170 /* Build configuration list for PBXNativeTarget "VybezTests" */ = {
 			isa = XCConfigurationList;
@@ -513,6 +995,7 @@
 				5C2D63D21F23A94C005CD170 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5C2D63D31F23A94C005CD170 /* Build configuration list for PBXNativeTarget "VybezUITests" */ = {
 			isa = XCConfigurationList;
@@ -521,6 +1004,7 @@
 				5C2D63D51F23A94C005CD170 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

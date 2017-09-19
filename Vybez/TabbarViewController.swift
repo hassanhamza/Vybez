@@ -19,19 +19,20 @@ class TabbarViewController: RaisedTabBarController {
         let screenWidth = screenSize.width
         
         if (screenWidth == 320) {
-            self.addRaisedButton(UIImage(named:"plus signoff"), highlightImage: nil, offset:-10.0)
+            self.addRaisedButton(UIImage(named:"plus signoff"), highlightImage: nil, offset:-10.0, show:true)
         }else if(screenWidth == 375){
-            self.addRaisedButton(UIImage(named:"plus signoff"), highlightImage: nil, offset:-10.0)
+            self.addRaisedButton(UIImage(named:"plus signoff"), highlightImage: nil, offset:-10.0, show:true)
         }else if(screenWidth == 414){
-            self.addRaisedButton(UIImage(named:"plus signoff"), highlightImage: nil, offset:-3.0)
+            self.addRaisedButton(UIImage(named:"plus signoff"), highlightImage: nil, offset:-3.0, show:true)
         }
+        
+        self.navigationController?.isNavigationBarHidden = true
     }
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-    
 
     /*
     // MARK: - Navigation
@@ -49,10 +50,10 @@ extension RaisedTabBarController:UITabBarControllerDelegate {
     public func tabBarController(_ tabBarController: UITabBarController, didSelect viewController: UIViewController) {
         
         if(selectedIndex == 2){
-            self.addRaisedButton(UIImage(named:"plus sign"), highlightImage: nil, offset:-5.0)
+            self.addRaisedButton(UIImage(named:"plus sign"), highlightImage: nil, offset:-5.0, show: true)
         }
         else{
-            self.addRaisedButton(UIImage(named:"plus signoff"), highlightImage: nil, offset:-5.0)
+            self.addRaisedButton(UIImage(named:"plus signoff"), highlightImage: nil, offset:-5.0, show: true)
         }
     }
 }

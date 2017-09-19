@@ -1,42 +1,39 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12120" systemVersion="16F73" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12121" systemVersion="16G29" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12088"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
-    <customFonts key="customFonts">
-        <array key="Lato-Bold.ttf">
-            <string>Lato-Bold</string>
-        </array>
-    </customFonts>
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
         <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
         <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="SponsorViewCell" id="gTV-IL-0wX" customClass="SponsorViewCell" customModule="Vybez" customModuleProvider="target">
-            <rect key="frame" x="0.0" y="0.0" width="414" height="170"/>
+            <rect key="frame" x="0.0" y="0.0" width="414" height="140"/>
             <autoresizingMask key="autoresizingMask"/>
             <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
-                <rect key="frame" x="0.0" y="0.0" width="414" height="170"/>
+                <rect key="frame" x="0.0" y="0.0" width="414" height="140"/>
                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                 <subviews>
-                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="sponsor" translatesAutoresizingMaskIntoConstraints="NO" id="sFu-14-nAy">
-                        <rect key="frame" x="14" y="37" width="386" height="128"/>
-                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" image="sponsor" translatesAutoresizingMaskIntoConstraints="NO" id="SLJ-dN-VQh">
+                        <rect key="frame" x="14" y="7" width="386" height="128"/>
                     </imageView>
-                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="SPONSORED ADS" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fFa-Hj-9td">
-                        <rect key="frame" x="20" y="4" width="200" height="30"/>
-                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                        <fontDescription key="fontDescription" name="Lato-Bold" family="Lato" pointSize="20"/>
-                        <color key="textColor" red="0.58823529409999997" green="0.078431372550000003" blue="0.50196078430000002" alpha="1" colorSpace="calibratedRGB"/>
-                        <nil key="highlightedColor"/>
-                    </label>
                 </subviews>
             </view>
             <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="SLJ-dN-VQh" secondAttribute="trailing" constant="14" id="1yT-DF-ays"/>
+                <constraint firstItem="SLJ-dN-VQh" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" constant="7" id="5FA-8G-LnB"/>
+                <constraint firstItem="SLJ-dN-VQh" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" constant="14" id="XKj-g6-tRb"/>
+                <constraint firstAttribute="bottom" secondItem="SLJ-dN-VQh" secondAttribute="bottom" constant="5" id="gIi-2a-jBj"/>
+            </constraints>
+            <connections>
+                <outlet property="sponsorImage" destination="SLJ-dN-VQh" id="tpT-H7-gUy"/>
+            </connections>
+            <point key="canvasLocation" x="140" y="57"/>
         </collectionViewCell>
     </objects>
     <resources>
